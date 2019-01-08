@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>New Player</title>
+<link href="../pages.css" rel="stylesheet" />
+</head>
+<body>
+<div id="wrapper">
+<form method="POST" action="insert.php">
+<fieldset>
+<legend>Данни за състезателя:</legend>
+<label>Име: </label>
+<input type="text" name="name"/><br />
+<label>Училище: </label>
+<input type="text" name="school" /><br />
+<label>Резултат:
+<input type="text" name="score" /><br />
+</fieldset>          
+<input type="submit" value="Send" />
+<input type="reset" value="Clear form" />
+</form>
+</div>
+</body>
+</html>

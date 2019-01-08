@@ -1,0 +1,70 @@
+﻿body {
+  color: #333;
+  font-family: Verdana, Geneva, Times New Roman;
+ }
+#wrapper {
+  width: 100%;
+ }
+form {
+margin: 0px auto;
+margin-top: 25px;
+  width: 380px;
+  background: linear-gradient(to bottom, #68d1ff, #8cfffb);
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: right;
+}
+fieldset {
+  border: 3px solid #333;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+legend {
+  font-size: 1.3em;
+  font-style: italic;
+  padding: 0 15px;
+}
+input {
+  padding: 5px 15px;
+  border: 1px solid #008fce;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #68d1ff, #8cfffb);
+  }
+
+label {
+  margin-top: 5px;
+  display: inline-block;
+}
+input[type=submit], input[type=reset] {
+  font-size: 1.2em;
+  padding: 5px 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(to bottom, #35c1ff 0%, #8cfffb 100%);
+  border-bottom: 1px solid black;
+ color: #333;
+}
+body #wrapper form input[type=submit]:hover,
+body #wrapper form input[type=reset]:hover {
+  background: #9be1ff;
+}
+
+/*за файла list.php*/
+table {
+    font-family: arial, sans-serif;
+    width: 50%;
+	margin: auto;
+}
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+th {text-align: center;
+background: linear-gradient(to bottom, #80d4ff, #8cfffb, #0088cc);
+color:  #006699;}
+tr {
+    background: linear-gradient(to bottom, #68d1ff, #8cfffb);
+}
+.td3 {text-align: right;}
